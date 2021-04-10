@@ -30,4 +30,11 @@ public class MainActivity extends AppCompatActivity {
         int sum = n1 + n2;
         tvResult.setText(String.valueOf(sum));
     }
+
+    public void btnsub(View view) {
+        int n1 =Integer.parseInt(etn1.getText().toString());
+        int n2 =Integer.parseInt(etn2.getText().toString());
+        int sum = n1 - n2;
+        tvResult.setText(String.valueOf(sum));
+    }
 }
